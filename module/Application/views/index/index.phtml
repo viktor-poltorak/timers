@@ -1,0 +1,31 @@
+<div style="margin-top: 18px;" class="btn-toolbar">
+    <div class="btn-group">
+        <a href="/timers/edit" class="btn">Add new</a>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Recurrent</th>
+        <th>Expires on</th>
+        <th>Actions</th>
+    </thead>
+    <tbody>
+        <?php foreach ($this->timers as $timer) : ?>
+        <tr>
+            <td><?= $timer->timer_id ?></td>
+            <td><?= $timer->title ?></td>
+            <td><?= $timer->description ?></td>
+            <td><?= $timer->recurrent ?></td>
+            <td><?= $timer->expires_on ?></td>
+            <td>
+                <a class="btn btn-mini" href="/timers/edit?id=<?= $timer->timer_id ?>">Edit</a>
+                <a class="btn btn-mini btn-danger" href="/timers/delete?id=<?= $timer->timer_id ?>">Delete</a>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
