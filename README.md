@@ -1,11 +1,9 @@
-ZendSkeletonApplication
+Timers project
 =======================
 
 Introduction
 ------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+TO DO add instruction :)
 
 
 Installation
@@ -13,7 +11,7 @@ Installation
 The easiest way to get a working copy of this project is to do a recursive
 clone:
 
-    git clone --recursive git://github.com/zendframework/ZendSkeletonApplication.git
+    git clone --recursive git://github.com/viktor-poltorak/timers.git
 
 After the clone is complete, set up a virtual host to point to the public/
 directory of the project and you should be ready to go!

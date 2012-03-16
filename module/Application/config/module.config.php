@@ -8,7 +8,7 @@ return array(
             'alias' => array(
                 'index' => 'Application\Controller\IndexController',
                 'error' => 'Application\Controller\ErrorController',
-                'view' => 'Zend\View\PhpRenderer',
+                'view' => 'Zend\View\Renderer\PhpRenderer',
             ),
             'Zend\View\PhpRenderer' => array(
                 'parameters' => array(

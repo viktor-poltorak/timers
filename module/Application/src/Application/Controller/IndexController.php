@@ -19,7 +19,7 @@ class IndexController extends ActionController
     }
     
     public function indexAction()
-    {        
+    {    
         return array (
             'timers' => $this->em->getRepository('Timers\Entity\Timers')->findAll()
         );
