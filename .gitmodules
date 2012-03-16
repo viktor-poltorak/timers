@@ -4,3 +4,6 @@
 [submodule "vendor/ZfcBase"]
 	path = vendor/ZfcBase
 	url = git://github.com/ZF-Commons/ZfcBase.git
+[submodule "vendor/DoctrineModule"]
+	path = vendor/DoctrineModule
+	url = git://github.com/doctrine/DoctrineModule.git
