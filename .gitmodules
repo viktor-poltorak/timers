@@ -13,3 +13,6 @@
 [submodule "vendor/TwitterBootstrapFormDecorators"]
 	path = vendor/TwitterBootstrapFormDecorators
 	url = git://github.com/mwillbanks/TwitterBootstrapFormDecorators.git
+[submodule "vendor/ZendFramework"]
+	path = vendor/ZendFramework
+	url = git://github.com/zendframework/zf2.git
