@@ -4,14 +4,16 @@ namespace Rest\Controller;
 
 use Zend\Mvc\Controller\RestfulController;
 
-class TimersController extends RestfulController {
+class TimersController extends RestfulController
+{
 
     /**
      * Return list of resources
      *
      * @return array
      */
-    public function getList() {
+    public function getList()
+    {
         $data = array(
             'method' => 'Get list'
         );
@@ -25,7 +27,8 @@ class TimersController extends RestfulController {
      * @param mixed $id
      * @return mixed
      */
-    public function get($id) {
+    public function get($id)
+    {
         $data = array(
             'id' => $id,
             'method' => 'get'
@@ -40,7 +43,8 @@ class TimersController extends RestfulController {
      * @param mixed $data
      * @return mixed
      */
-    public function create($data) {
+    public function create($data)
+    {
         $data = array(
             'params' => print_r($data, true),
             'method' => 'Create'
@@ -56,7 +60,8 @@ class TimersController extends RestfulController {
      * @param mixed $data
      * @return mixed
      */
-    public function update($id, $data) {
+    public function update($id, $data)
+    {
         $data = array(
             'id' => $id,
             'params' => print_r($data, true),
@@ -72,7 +77,8 @@ class TimersController extends RestfulController {
      * @param  mixed $id
      * @return mixed
      */
-    public function delete($id) {
+    public function delete($id)
+    {
         $data = array(
             'id' => $id,
             'method' => 'delete'

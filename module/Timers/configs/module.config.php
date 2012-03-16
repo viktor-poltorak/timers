@@ -29,7 +29,7 @@ return array(
                 'parameters' => array(
                     'options' => array(
                         'script_paths' => array(
-                            'timers' => __DIR__ . '/../views',
+                            'timers' => __DIR__ . '/../view',
                         ),
                     )
                 ),
