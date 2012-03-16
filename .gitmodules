@@ -16,3 +16,6 @@
 [submodule "vendor/ZendFramework"]
 	path = vendor/ZendFramework
 	url = git://github.com/zendframework/zf2.git
+[submodule "vendor/ZfcUserDoctrineORM"]
+	path = vendor/ZfcUserDoctrineORM
+	url = https://github.com/ZF-Commons/ZfcUserDoctrineORM.git
