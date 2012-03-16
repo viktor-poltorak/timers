@@ -10,3 +10,6 @@
 [submodule "vendor/DoctrineORMModule"]
 	path = vendor/DoctrineORMModule
 	url = git://github.com/doctrine/DoctrineORMModule.git
+[submodule "vendor/TwitterBootstrapFormDecorators"]
+	path = vendor/TwitterBootstrapFormDecorators
+	url = git://github.com/mwillbanks/TwitterBootstrapFormDecorators.git
