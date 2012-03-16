@@ -1,0 +1,3 @@
+[submodule "vendor/ZfcUser"]
+	path = vendor/ZfcUser
+	url = git://github.com/ZF-Commons/ZfcUser.git
